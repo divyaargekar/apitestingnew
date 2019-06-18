@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="selenium-iSousv3-framework(failed)">
+    <classes>
+      <class name="automationFramework.RememberMe">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="SignIn"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- automationFramework.RememberMe -->
+      <class name="automationFramework.NewTest">
+        <methods>
+          <include name="SignIn"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- automationFramework.NewTest -->
+    </classes>
+  </test> <!-- selenium-iSousv3-framework(failed) -->
+</suite> <!-- Failed suite [Suite] -->
